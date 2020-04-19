@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="stilovi/style.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navigacija-horizontalna">
+                <ul>
+					<li><a href="index.html">Naslovna strana</a></li>
+                    <li><a href="huawei.html">Huawei</a></li>
+                    <li><a href="honor.html">Honor</a></li>
+                    <li><a href="iphone.html">Iphone</a></li>
+                    <li><a href="samsung.html">Samsung</a></li>
+                    <li><a href="xiaomi.html">Xiaomi</a></li>
+                    <li><a href="porudzbina.html">Porucite ovde</a></li>
+                    </ul>
+            </nav>
+         </header>
+
+         <footer>
+   
+        
+<div class="button">
+	
+		<h1> Porucite </h1>
+		<form>
+			<select id="izvor" name="komponenta">
+			<option value="1">Honor 8S</option>
+			<option value="2">Honor 9X</option>
+			<option value="3">Honor 10 Lite</option>
+			<option value="4">Huawei Nova 5T</option>
+			<option value="5">Huawei P Smart Z</option>
+			<option value="6">Huawei P30 Pro</option>
+			<option value="7">Huawei P40 Pro</option>
+			<option value="8">Iphone 7</option>
+			<option value="9">Iphone 11</option>
+			<option value="10">Iphone 11 Pro</option>
+			<option value="11">Samsung A51</option>
+			<option value="12">Samsung A70</option>
+			<option value="13">Samsung Note 10</option>
+			<option value="14">Samsung S10</option>
+			<option value="15">Samsung S20+</option>
+			<option value="16">Samsung S20 Ultra</option>
+			<option value="17">Samsung Z Flip</option>
+			<option value="18">Xiaomi MI 9T DS</option>
+			<option value="19">Xiaomi MI Note 10</option>
+			<option value="20">Xiaomi Redmi 8</option>
+			<option value="21">Xiaomi Redmi Note 8</option>
+			</select>
+			<br><br>
+			<select id="broj" name="kolicina">
+			<option value="a">1</option>
+			<option value="b">2</option>
+			<option value="c">3</option>
+			<option value="d">4</option>
+			<option value="e">5</option>
+			<option value="f">6</option>
+			<option value="g">7</option>
+			<option value="i">8</option>
+			<option value="j">9</option>
+			<option value="k">10</option>
+			</select>
+	</form>
+		<br>
+		<div onclick="myFunction()" class="button-a"><a>PORUCI</a></div>
+		<p id="poruci"></p>
+
+   </div>
+
+  </footer>
+        
+    <script>
+function myFunction() {
+  document.getElementById("poruci").innerHTML = "Uspesno ste obavili porudzbinu!";
+}
+</script>
+</body>
+</html>

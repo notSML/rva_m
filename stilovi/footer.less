@@ -1,0 +1,32 @@
+@color: #000000;
+@button-color:#000000;
+@button-border: 6px solid #cccccc;
+@button-background: #FFFFFF;
+@button-hover: #e8e8e8;
+@button-hover-color: #e8e8e8;
+
+footer{
+	align:left;
+	width: 100%;
+	font-size: 30px;
+	clear:both;	
+	color: @color;
+		@media(max-width:720px){
+		font-size: 12px;}
+		}
+
+.button-a{
+	background: @button-background;
+	color:@button-color;
+	border: @button-border;
+	width: 100%;
+	text-align: center;
+		@media(max-width:720px){
+		width:80%;
+		float:none;
+		}
+	&:hover{
+		color:@button-hover-color;
+		background:@button-hover;
+	}
+}
